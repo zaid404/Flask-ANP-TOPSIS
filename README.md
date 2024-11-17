@@ -1,9 +1,15 @@
 # Flask-ANP-TOPSIS
-###cari kariawan terbaik
+
+### Cari Karyawan Terbaik
+
+Sistem ini menggunakan kombinasi metode **ANP (Analytic Network Process)** dan **TOPSIS (Technique for Order Preference by Similarity to Ideal Solution)** untuk memilih karyawan terbaik berdasarkan kriteria yang ditentukan.
+
+---
+
 ## Tangkapan Layar
 
 ### Halaman Utama
-[![Preview Video]([https://github.com/zaid404/Flask-ANP-TOPSIS/raw/main/index.png)](https://github.com/zaid404/Flask-ANP-TOPSIS/raw/main/bandicam%202024-11-17%2013-16-14-709.avi](https://github.com/user-attachments/assets/c8c105f7-8a40-442e-afd1-301e450da224)
+[![Preview Video](https://github.com/zaid404/Flask-ANP-TOPSIS/raw/main/index.png)](https://github.com/zaid404/Flask-ANP-TOPSIS/raw/main/bandicam%202024-11-17%2013-16-14-709.avi)
 
 ### Halaman Kinerja
 ![Halaman Kinerja](https://github.com/zaid404/Flask-ANP-TOPSIS/raw/main/kinerja.png)
@@ -11,15 +17,7 @@
 ### Halaman Matrix ANP
 ![Halaman Matrix ANP](https://github.com/zaid404/Flask-ANP-TOPSIS/raw/main/matrix.png)
 
-### Penjelasan:
-1. **Alur Proses**: Langkah-langkah dari input data hingga peringkat karyawan terbaik dijelaskan secara berurutan.
-2. **Instalasi**: Langkah-langkah instalasi dan penggunaan aplikasi Flask disertakan untuk memudahkan setup.
-
-
-
-# Kombinasi ANP dan TOPSIS untuk Mencari Karyawan Terbaik
-
-Sistem ini menggunakan kombinasi metode **ANP (Analytic Network Process)** dan **TOPSIS (Technique for Order Preference by Similarity to Ideal Solution)** untuk memilih karyawan terbaik berdasarkan kriteria yang ditentukan.
+---
 
 ## Alur Proses
 
@@ -31,10 +29,6 @@ Sistem ini menggunakan kombinasi metode **ANP (Analytic Network Process)** dan *
 
 3. **Input Data Kinerja Karyawan**
    - Data kinerja karyawan diinputkan untuk dievaluasi berdasarkan kriteria yang telah ditentukan.
-
-
-
-
 
 4. **Normalisasi Data Kinerja Karyawan**
    - Data kinerja yang telah dimasukkan dinormalisasi agar dapat digunakan untuk perhitungan lebih lanjut.
@@ -51,15 +45,13 @@ Sistem ini menggunakan kombinasi metode **ANP (Analytic Network Process)** dan *
 8. **Hasil Peringkat Karyawan**
    - Berdasarkan nilai preferensi, sistem menghasilkan peringkat karyawan terbaik.
 
+---
+
 ## Instalasi
 
-Untuk menjalankan aplikasi ini, ikuti langkah-langkah berikut:
+Ikuti langkah-langkah berikut untuk menjalankan aplikasi:
 
 1. **Clone repositori ini:**
    ```bash
    git clone https://github.com/zaid404/Flask-ANP-TOPSIS.git
    cd Flask-ANP-TOPSIS
-   pip install -r requirements.txt
-   flask run
-    
-
