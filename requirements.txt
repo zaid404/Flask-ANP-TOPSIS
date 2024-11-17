@@ -2,3 +2,4 @@ Flask
 Flask-SQLAlchemy 
 Flask-WTF 
 pandas
+flask_migrate
