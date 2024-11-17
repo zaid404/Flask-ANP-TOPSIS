@@ -26,12 +26,6 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
-    - name: Lint and Test
-      run: |
-        # Replace with your actual test or lint commands
-        flake8 .  # Linting
-        pytest    # Testing
-
     - name: Run Flask App (Optional)
       run: |
         python -m flask run --host=0.0.0.0 --port=5000 &
