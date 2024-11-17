@@ -8,7 +8,7 @@ Sistem ini menggunakan kombinasi metode **ANP (Analytic Network Process)** dan *
 
 
 ### Halaman Utama
-[![Preview Video](https://github.com/user-attachments/assets/0bedad17-f226-4d48-9e1e-cf0ee5849cb0)
+![Preview Video](https://github.com/user-attachments/assets/0bedad17-f226-4d48-9e1e-cf0ee5849cb0)
 
 
 
