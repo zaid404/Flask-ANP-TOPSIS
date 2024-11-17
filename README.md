@@ -3,7 +3,7 @@
 ## Tangkapan Layar
 
 ### Halaman Utama
-[![Preview Video](https://github.com/zaid404/Flask-ANP-TOPSIS/raw/main/index.png)](https://github.com/zaid404/Flask-ANP-TOPSIS/raw/main/bandicam%202024-11-17%2013-16-14-709.avi)
+[![Preview Video]([https://github.com/zaid404/Flask-ANP-TOPSIS/raw/main/index.png)](https://github.com/zaid404/Flask-ANP-TOPSIS/raw/main/bandicam%202024-11-17%2013-16-14-709.avi](https://github.com/user-attachments/assets/c8c105f7-8a40-442e-afd1-301e450da224)
 
 ### Halaman Kinerja
 ![Halaman Kinerja](https://github.com/zaid404/Flask-ANP-TOPSIS/raw/main/kinerja.png)
@@ -31,6 +31,10 @@ Sistem ini menggunakan kombinasi metode **ANP (Analytic Network Process)** dan *
 
 3. **Input Data Kinerja Karyawan**
    - Data kinerja karyawan diinputkan untuk dievaluasi berdasarkan kriteria yang telah ditentukan.
+
+
+
+
 
 4. **Normalisasi Data Kinerja Karyawan**
    - Data kinerja yang telah dimasukkan dinormalisasi agar dapat digunakan untuk perhitungan lebih lanjut.
