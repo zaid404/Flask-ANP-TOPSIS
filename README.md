@@ -3,7 +3,7 @@
 ## Tangkapan Layar
 
 ### Halaman Utama
-![Halaman Utama](https://github.com/zaid404/Flask-ANP-TOPSIS/raw/main/index.png)
+[![Preview Video](https://github.com/zaid404/Flask-ANP-TOPSIS/raw/main/index.png)](https://github.com/zaid404/Flask-ANP-TOPSIS/raw/main/bandicam%202024-11-17%2013-16-14-709.avi)
 
 ### Halaman Kinerja
 ![Halaman Kinerja](https://github.com/zaid404/Flask-ANP-TOPSIS/raw/main/kinerja.png)
