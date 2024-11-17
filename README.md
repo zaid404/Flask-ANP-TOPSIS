@@ -1,13 +1,10 @@
 # Flask-ANP-TOPSIS
-##cari kariawan terbaik
+###cari kariawan terbaik
 
 ### Penjelasan:
 1. **Alur Proses**: Langkah-langkah dari input data hingga peringkat karyawan terbaik dijelaskan secara berurutan.
 2. **Instalasi**: Langkah-langkah instalasi dan penggunaan aplikasi Flask disertakan untuk memudahkan setup.
-3. **Fitur**: Daftar fitur utama yang ada dalam aplikasi.
-4. **Teknologi**: Teknologi yang digunakan untuk membangun aplikasi ini.
-5. **Kontribusi**: Panduan untuk berkontribusi pada proyek ini jika orang lain ingin membantu.
-6. **Lisensi**: Bagian lisensi untuk menjelaskan hak cipta dan distribusi proyek.
+
 
 
 # Kombinasi ANP dan TOPSIS untuk Mencari Karyawan Terbaik
