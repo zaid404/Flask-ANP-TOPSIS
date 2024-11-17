@@ -1,5 +1,15 @@
 # Flask-ANP-TOPSIS
 ###cari kariawan terbaik
+## Tangkapan Layar
+
+### Halaman Utama
+![Halaman Utama](https://github.com/zaid404/Flask-ANP-TOPSIS/raw/main/index.png)
+
+### Halaman Kinerja
+![Halaman Kinerja](https://github.com/zaid404/Flask-ANP-TOPSIS/raw/main/kinerja.png)
+
+### Halaman Matrix ANP
+![Halaman Matrix ANP](https://github.com/zaid404/Flask-ANP-TOPSIS/raw/main/matrix.png)
 
 ### Penjelasan:
 1. **Alur Proses**: Langkah-langkah dari input data hingga peringkat karyawan terbaik dijelaskan secara berurutan.
