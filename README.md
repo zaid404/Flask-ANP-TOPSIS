@@ -8,7 +8,8 @@ Sistem ini menggunakan kombinasi metode **ANP (Analytic Network Process)** dan *
 
 
 ### Halaman Utama
-[![Preview Video](https://github.com/zaid404/Flask-ANP-TOPSIS/raw/main/index.png)](https://github.com/user-attachments/assets/d717def2-52ca-4b1e-8e4c-c94c4ddc6906)
+[![Preview Video](https://github.com/user-attachments/assets/0bedad17-f226-4d48-9e1e-cf0ee5849cb0)
+
 
 
 
