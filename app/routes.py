@@ -5,6 +5,8 @@ from .forms import KaryawanForm, KriteriaForm
 from flask import current_app as app
 from .hitung import proses_hitung
 import pandas as pd
+import os
+
 # Define the blueprint for the main routes
 main = Blueprint('main', __name__)
 # Halaman Utama
@@ -109,3 +111,57 @@ def kinerja():
         columns=df_matrix.columns,
         matrix=df_matrix
     )
+
+# Path folder data
+DATA_FOLDER = os.path.join(os.getcwd(), "data")
+
+@main.route('/data', methods=['GET'])
+def data():
+    try:
+        # Ambil daftar file CSV dari folder data
+        data_files = [f for f in os.listdir(DATA_FOLDER) if f.endswith('.csv')]
+        return render_template('list_data.html', data_files=data_files)
+    except Exception as e:
+        flash(f"Terjadi kesalahan saat memuat data: {e}", "danger")
+        return render_template('list_data.html', data_files=[])
+
+
+@main.route('/data/view/<filename>', methods=['GET'])
+def view_file(filename):
+    file_path = os.path.join(DATA_FOLDER, filename)
+    
+    if os.path.exists(file_path):
+        try:
+            # Membaca file CSV menggunakan Pandas
+            df = pd.read_csv(file_path)
+            columns = df.columns.tolist()  # Mendapatkan nama kolom
+            rows = df.values.tolist()     # Mendapatkan isi data
+            return render_template('base_view.html', filename=filename, columns=columns, rows=rows)
+        except Exception as e:
+            flash(f"Terjadi kesalahan saat membaca file: {e}", "danger")
+            return redirect(url_for('main.data'))
+    else:
+        flash("File tidak ditemukan!", "danger")
+        return redirect(url_for('main.data'))
+
+@main.route('/data/download/<filename>', methods=['GET'])
+def download_file(filename):
+    file_path = os.path.join(DATA_FOLDER, filename)
+    if os.path.exists(file_path):
+        return send_file(file_path, as_attachment=True)
+    else:
+        flash("File tidak ditemukan!", "danger")
+        return redirect(url_for('main.data'))
+
+@main.route('/data/delete/<filename>', methods=['POST'])
+def delete_file(filename):
+    file_path = os.path.join(DATA_FOLDER, filename)
+    try:
+        if os.path.exists(file_path):
+            os.remove(file_path)
+            flash("File berhasil dihapus!", "success")
+        else:
+            flash("File tidak ditemukan!", "danger")
+    except Exception as e:
+        flash(f"Terjadi kesalahan saat menghapus file: {e}", "danger")
+    return redirect(url_for('main.data'))
